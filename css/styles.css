@@ -1,8 +1,8 @@
 * {
-  border: 0px;
+  border: 0;
   font-family: "Montserrat";
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 /*HTML ELEMENTS*/
@@ -20,7 +20,7 @@ em {
 }
 
 .download {
-  margin: 10% 2.5% 0% 0%;
+  margin: 10% 2.5% 0 0;
 }
 
 .fa-apple, .fa-google-play {
@@ -96,12 +96,16 @@ em {
 
 /* PRESS */
 #press {
-  padding: 0% 7% 5%;
+  padding: 0 7% 5%;
 }
 
 .press-img {
   width: 200px;
   padding: 25px 0px;
+}
+
+.press-img:hover {
+  opacity: 50%;
 }
 
 /* PRICING */
@@ -115,7 +119,7 @@ em {
 
 .card-header {
   border-bottom: none;
-  padding-bottom: 0px;
+  padding-bottom: 0;
 }
 
 .card-subtitle {
@@ -147,7 +151,7 @@ em {
 }
 
 .carousel-item {
-  padding: 5% 0% 4%;
+  padding: 5% 0 4%;
 }
 
 .testimonials-img {
@@ -161,7 +165,7 @@ em {
   font-size: 3rem;
   font-weight: bold;
   line-height: 4rem;
-  padding: 0% 25% 2.5%;
+  padding: 0 25% 2.5%;
 }
 
 /* TITLE */
@@ -174,18 +178,19 @@ em {
 }
 
 .container-element-title-section {
-  margin: auto 0px auto 0px;
+  margin: auto 0 auto 0;
+  text-align: left;
 }
 
 .iphone-img {
   position: relative;
-  right: 0%;
+  right: 0;
   transform: rotate(25deg) translate(100px, 12.5%);
   width: 240px;
 }
 
 .navbar {
-  padding: 0rem 0rem 2.5rem 0rem;
+  padding: 0 0 2.5rem 0;
 }
 
 .navbar-brand {
@@ -195,7 +200,7 @@ em {
 }
 
 .nav-item {
-  padding: 0px 10px 0px 10px;
+  padding: 0 10px 0 10px;
 }
 
 .nav-link {
@@ -217,7 +222,11 @@ em {
   .iphone-img {
     padding-top: 5%;
     position: static;
-    transform: rotate(0deg) translate(0px, 0%);
+    transform: rotate(0) translate(0, 0);
+  }
+
+  .container-element-title-section {
+    text-align: center;
   }
 
   .cta-header, .testimonials-text, .pricing-text {
@@ -233,4 +242,9 @@ em {
     font-size: 2.5rem;
     text-align: center;
   }
+}
+
+/* EXTRA FEATURES */
+.hover-image {
+  transform: rotate(0) translate(0, 0);
 }
