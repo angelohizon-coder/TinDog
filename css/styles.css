@@ -1,8 +1,15 @@
 * {
+<<<<<<< HEAD
   border: 0;
   font-family: "Montserrat";
   margin: 0;
   padding: 0;
+=======
+  border: 0px;
+  font-family: "Montserrat";
+  margin: 0px;
+  padding: 0px;
+>>>>>>> 9b1ff8687f661b6dc9226e2aa1b1167fad6bada1
 }
 
 /*HTML ELEMENTS*/
@@ -20,7 +27,11 @@ em {
 }
 
 .download {
+<<<<<<< HEAD
   margin: 10% 2.5% 0 0;
+=======
+  margin: 10% 2.5% 0% 0%;
+>>>>>>> 9b1ff8687f661b6dc9226e2aa1b1167fad6bada1
 }
 
 .fa-apple, .fa-google-play {
@@ -96,7 +107,11 @@ em {
 
 /* PRESS */
 #press {
+<<<<<<< HEAD
   padding: 0 7% 5%;
+=======
+  padding: 0% 7% 5%;
+>>>>>>> 9b1ff8687f661b6dc9226e2aa1b1167fad6bada1
 }
 
 .press-img {
@@ -104,10 +119,13 @@ em {
   padding: 25px 0px;
 }
 
+<<<<<<< HEAD
 .press-img:hover {
   opacity: 50%;
 }
 
+=======
+>>>>>>> 9b1ff8687f661b6dc9226e2aa1b1167fad6bada1
 /* PRICING */
 #pricing {
   padding: 7% 15%;
@@ -119,7 +137,11 @@ em {
 
 .card-header {
   border-bottom: none;
+<<<<<<< HEAD
   padding-bottom: 0;
+=======
+  padding-bottom: 0px;
+>>>>>>> 9b1ff8687f661b6dc9226e2aa1b1167fad6bada1
 }
 
 .card-subtitle {
@@ -151,7 +173,11 @@ em {
 }
 
 .carousel-item {
+<<<<<<< HEAD
   padding: 5% 0 4%;
+=======
+  padding: 5% 0% 4%;
+>>>>>>> 9b1ff8687f661b6dc9226e2aa1b1167fad6bada1
 }
 
 .testimonials-img {
@@ -165,7 +191,11 @@ em {
   font-size: 3rem;
   font-weight: bold;
   line-height: 4rem;
+<<<<<<< HEAD
   padding: 0 25% 2.5%;
+=======
+  padding: 0% 25% 2.5%;
+>>>>>>> 9b1ff8687f661b6dc9226e2aa1b1167fad6bada1
 }
 
 /* TITLE */
@@ -178,19 +208,31 @@ em {
 }
 
 .container-element-title-section {
+<<<<<<< HEAD
   margin: auto 0 auto 0;
   text-align: left;
+=======
+  margin: auto 0px auto 0px;
+>>>>>>> 9b1ff8687f661b6dc9226e2aa1b1167fad6bada1
 }
 
 .iphone-img {
   position: relative;
+<<<<<<< HEAD
   right: 0;
+=======
+  right: 0%;
+>>>>>>> 9b1ff8687f661b6dc9226e2aa1b1167fad6bada1
   transform: rotate(25deg) translate(100px, 12.5%);
   width: 240px;
 }
 
 .navbar {
+<<<<<<< HEAD
   padding: 0 0 2.5rem 0;
+=======
+  padding: 0rem 0rem 2.5rem 0rem;
+>>>>>>> 9b1ff8687f661b6dc9226e2aa1b1167fad6bada1
 }
 
 .navbar-brand {
@@ -200,7 +242,11 @@ em {
 }
 
 .nav-item {
+<<<<<<< HEAD
   padding: 0 10px 0 10px;
+=======
+  padding: 0px 10px 0px 10px;
+>>>>>>> 9b1ff8687f661b6dc9226e2aa1b1167fad6bada1
 }
 
 .nav-link {
@@ -222,11 +268,15 @@ em {
   .iphone-img {
     padding-top: 5%;
     position: static;
+<<<<<<< HEAD
     transform: rotate(0) translate(0, 0);
   }
 
   .container-element-title-section {
     text-align: center;
+=======
+    transform: rotate(0deg) translate(0px, 0%);
+>>>>>>> 9b1ff8687f661b6dc9226e2aa1b1167fad6bada1
   }
 
   .cta-header, .testimonials-text, .pricing-text {
@@ -243,8 +293,11 @@ em {
     text-align: center;
   }
 }
+<<<<<<< HEAD
 
 /* EXTRA FEATURES */
 .hover-image {
   transform: rotate(0) translate(0, 0);
 }
+=======
+>>>>>>> 9b1ff8687f661b6dc9226e2aa1b1167fad6bada1
